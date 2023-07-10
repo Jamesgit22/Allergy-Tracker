@@ -1,3 +1,84 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --background-col: #e2dfdf;
+  --mint-col: #09BC8A;
+  --pale-col: #FAC9B8;
+  --red-col: #B3001B;
+  --dark-col: #4c4c4c;
+  --lt-grey-col: #a0a0a03a;
+  --blue-col: #80A4ED;
+  --menu-bg: #e5e5e59f;
+}
+
+.background-bg {
+  background-color: var(--background-col);
+}
+
+.white-bg {
+    background-color: #FAFAFA;
+}
+
+.mint-bg {
+  background-color: var(--mint-col);
+}
+
+.pale-bg {
+  background-color: var(--pale-col);
+}
+
+.red-bg {
+  background-color: var(--red-col);
+}
+
+.dark-bg {
+  background-color: var(--dark-col);
+}
+
+.menu-bg {
+    background-color: var(--menu-bg);
+}
+
+.blue-bg {
+  background-color: var(--blue-col);
+}
+
+.background-txt {
+  color: var(--background-col);
+}
+
+.white-txt {
+  color: #ffffff;
+}
+
+.mint-txt {
+    color: var(--mint-col);
+}
+
+.pale-txt {
+  color: var(--pale-col);
+}
+
+.red-txt {
+  color: var(--red-col);
+}
+
+.dark-txt {
+  color: var(--dark-col);
+}
+
+.lt-grey-b-col {
+    border-color: var(--lt-grey-col);
+}
+
+
+/* Buttons */
+.green-btn {
+    background-color: #16a34a;
+}
+
+.blue-btn {
+    background-color: #2563eb;
+}
